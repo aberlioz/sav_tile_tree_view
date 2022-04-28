@@ -1,0 +1,3151 @@
+[
+  {
+    "id": 1,
+    "name": "Root",
+    "categories": [],
+    "label": "",
+    "indice": 0,
+    "image": "",
+    "is_leaf": false,
+    "question": "Tell us how we can help you",
+    "subquestion": "This helps our sellers understand your issue so they can provide the most useful solution for you",
+    "unique_choice": true,
+    "parent_id": null,
+    "children": [
+      {
+        "id": 10,
+        "name": "Cancel order",
+        "parent": "Root",
+        "categories": [],
+        "label": "I changed my mind about the item",
+        "indice": 0,
+        "image": "cancel",
+        "is_leaf": true,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": true,
+        "parent_id": 1,
+        "children": []
+      },
+      {
+        "id": 156,
+        "name": "Damaged",
+        "parent": "Root",
+        "categories": [],
+        "label": "Déclarer la casse de mon appareil",
+        "indice": 7,
+        "image": "damaged",
+        "is_leaf": true,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": true,
+        "parent_id": 1,
+        "children": []
+      },
+      {
+        "id": 179,
+        "name": "Imei serial number request",
+        "parent": "Root",
+        "categories": [],
+        "label": "I need my IMEI / serial number",
+        "indice": 6,
+        "image": "serial-number",
+        "is_leaf": true,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": false,
+        "parent_id": 1,
+        "children": []
+      },
+      {
+        "id": 146,
+        "name": "Invoice",
+        "parent": "Root",
+        "categories": [],
+        "label": "I need an invoice",
+        "indice": 0,
+        "image": "bill",
+        "is_leaf": true,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": false,
+        "parent_id": 1,
+        "children": []
+      },
+      {
+        "id": 177,
+        "name": "Invoice error",
+        "parent": "Root",
+        "categories": [],
+        "label": "There's a mistake on my invoice",
+        "indice": 4,
+        "image": "bill",
+        "is_leaf": true,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": false,
+        "parent_id": 1,
+        "children": []
+      },
+      {
+        "id": 180,
+        "name": "Invoice unavailable",
+        "parent": "Root",
+        "categories": [],
+        "label": "I have not received my invoice yet",
+        "indice": 7,
+        "image": "bill",
+        "is_leaf": true,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": false,
+        "parent_id": 1,
+        "children": []
+      },
+      {
+        "id": 2,
+        "name": "Not received",
+        "parent": "Root",
+        "categories": [],
+        "label": "I have a problem with the delivery",
+        "indice": 5,
+        "image": "clock",
+        "is_leaf": false,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": true,
+        "parent_id": 1,
+        "children": [
+          {
+            "id": 5,
+            "name": "Delivered but not received",
+            "parent": "Not received",
+            "categories": [],
+            "label": "It says it's delivered but I don't see it",
+            "indice": 0,
+            "image": "question",
+            "is_leaf": false,
+            "question": "What is the issue specifically?",
+            "subquestion": "Just one more thing we promise",
+            "unique_choice": false,
+            "parent_id": 2,
+            "children": [
+              {
+                "id": 153,
+                "name": "Delivered to a neighbour / landlord",
+                "parent": "Delivered but not received",
+                "categories": [],
+                "label": "Delivered to a neighbour / landlord",
+                "indice": 0,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 5,
+                "children": []
+              },
+              {
+                "id": 149,
+                "name": "Delivery proof but someone signed at my place",
+                "parent": "Delivered but not received",
+                "categories": [],
+                "label": "Someone signed for my package but it wasn't me!",
+                "indice": 0,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 5,
+                "children": []
+              },
+              {
+                "id": 8,
+                "name": "Other",
+                "parent": "Delivered but not received",
+                "categories": [],
+                "label": "Delivery - other",
+                "indice": 0,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 5,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "I need help",
+            "parent": "Not received",
+            "categories": [],
+            "label": "I need help to track my package",
+            "indice": 0,
+            "image": "binoculars",
+            "is_leaf": true,
+            "question": "",
+            "subquestion": "",
+            "unique_choice": false,
+            "parent_id": 2,
+            "children": []
+          },
+          {
+            "id": 4,
+            "name": "Late / Delay",
+            "parent": "Not received",
+            "categories": [],
+            "label": "Delivery deadlines are not met",
+            "indice": 0,
+            "image": "waiting",
+            "is_leaf": true,
+            "question": "",
+            "subquestion": "",
+            "unique_choice": false,
+            "parent_id": 2,
+            "children": []
+          },
+          {
+            "id": 178,
+            "name": "Shipping address change",
+            "parent": "Not received",
+            "categories": [],
+            "label": "I want to change my shipping address",
+            "indice": 5,
+            "image": "address",
+            "is_leaf": true,
+            "question": "",
+            "subquestion": "",
+            "unique_choice": false,
+            "parent_id": 2,
+            "children": []
+          },
+          {
+            "id": 195,
+            "name": "carrier_incident",
+            "parent": "Not received",
+            "categories": [],
+            "label": "My order can't be delivered",
+            "indice": 1,
+            "image": "fail-delivery",
+            "is_leaf": true,
+            "question": "",
+            "subquestion": "",
+            "unique_choice": false,
+            "parent_id": 2,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 176,
+        "name": "Not shipped",
+        "parent": "Root",
+        "categories": [],
+        "label": "My order is not \"shipped\" yet",
+        "indice": 3,
+        "image": "clock",
+        "is_leaf": true,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": false,
+        "parent_id": 1,
+        "children": []
+      },
+      {
+        "id": 175,
+        "name": "Not validated",
+        "parent": "Root",
+        "categories": [],
+        "label": "My order is not \"validated\" yet",
+        "indice": 2,
+        "image": "clock",
+        "is_leaf": true,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": false,
+        "parent_id": 1,
+        "children": []
+      },
+      {
+        "id": 11,
+        "name": "Received",
+        "parent": "Root",
+        "categories": [],
+        "label": "I have a problem with the product/accessories I received",
+        "indice": 0,
+        "image": "problem",
+        "is_leaf": false,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": false,
+        "parent_id": 1,
+        "children": [
+          {
+            "id": 113,
+            "name": "Accessories",
+            "parent": "Received",
+            "categories": [],
+            "label": "Problem with accessories",
+            "indice": 2,
+            "image": "adapter",
+            "is_leaf": false,
+            "question": "",
+            "subquestion": "",
+            "unique_choice": false,
+            "parent_id": 11,
+            "children": [
+              {
+                "id": 118,
+                "name": "01 - Earphone",
+                "parent": "Accessories",
+                "categories": [],
+                "label": "Earphones",
+                "indice": 0,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 113,
+                "children": [
+                  {
+                    "id": 120,
+                    "name": "01 - Earphone does not work",
+                    "parent": "01 - Earphone",
+                    "categories": [],
+                    "label": "",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 118,
+                    "children": []
+                  },
+                  {
+                    "id": 119,
+                    "name": "01 - Earphone not compatible",
+                    "parent": "01 - Earphone",
+                    "categories": [],
+                    "label": "Earphones aren't compatible",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 118,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 114,
+                "name": "01 -Charger",
+                "parent": "Accessories",
+                "categories": [],
+                "label": "Charger",
+                "indice": 0,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 113,
+                "children": [
+                  {
+                    "id": 117,
+                    "name": "01 - charger does not work",
+                    "parent": "01 -Charger",
+                    "categories": [],
+                    "label": "charger does not work",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 114,
+                    "children": []
+                  },
+                  {
+                    "id": 116,
+                    "name": "01 - charger is warm / inflated",
+                    "parent": "01 -Charger",
+                    "categories": [],
+                    "label": "charger is warm / inflated",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 114,
+                    "children": []
+                  },
+                  {
+                    "id": 115,
+                    "name": "01 - charger not compatible",
+                    "parent": "01 -Charger",
+                    "categories": [],
+                    "label": "charger not compatible",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 114,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 154,
+                "name": "Other",
+                "parent": "Accessories",
+                "categories": [],
+                "label": "Accessories - other",
+                "indice": 0,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 113,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 128,
+            "name": "Bad product",
+            "parent": "Received",
+            "categories": [],
+            "label": "This isn't what I ordered",
+            "indice": 3,
+            "image": "swap",
+            "is_leaf": false,
+            "question": "",
+            "subquestion": "",
+            "unique_choice": false,
+            "parent_id": 11,
+            "children": [
+              {
+                "id": 130,
+                "name": "01 - Capacity",
+                "parent": "Bad product",
+                "categories": [],
+                "label": "It is not the right capacity",
+                "indice": 1,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 128,
+                "children": []
+              },
+              {
+                "id": 129,
+                "name": "01 - Colour",
+                "parent": "Bad product",
+                "categories": [],
+                "label": "It is not the right color",
+                "indice": 0,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 128,
+                "children": []
+              },
+              {
+                "id": 131,
+                "name": "01 - Model",
+                "parent": "Bad product",
+                "categories": [],
+                "label": "Not the right brand or model",
+                "indice": 2,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 128,
+                "children": []
+              },
+              {
+                "id": 136,
+                "name": "02 - Colour",
+                "parent": "Bad product",
+                "categories": [
+                  { "category_id": 172, "category_name": "Desktops" },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" },
+                  { "category_id": 239, "category_name": "Gaming computers" }
+                ],
+                "label": "Colour",
+                "indice": 8,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 128,
+                "children": []
+              },
+              {
+                "id": 132,
+                "name": "02 - Keyboard",
+                "parent": "Bad product",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" },
+                  { "category_id": 239, "category_name": "Gaming computers" }
+                ],
+                "label": "The keyboard model is not the correct one (AZERTY / QWERTY…)",
+                "indice": 3,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 128,
+                "children": []
+              },
+              {
+                "id": 139,
+                "name": "02 - Other",
+                "parent": "Bad product",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" },
+                  { "category_id": 239, "category_name": "Gaming computers" }
+                ],
+                "label": "Other issue",
+                "indice": 10,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 128,
+                "children": []
+              },
+              {
+                "id": 133,
+                "name": "02 - Processeur",
+                "parent": "Bad product",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" },
+                  { "category_id": 239, "category_name": "Gaming computers" }
+                ],
+                "label": "Processor",
+                "indice": 4,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 128,
+                "children": []
+              },
+              {
+                "id": 137,
+                "name": "02 - RAM",
+                "parent": "Bad product",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  { "category_id": 18, "category_name": "Computer chargers" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" },
+                  { "category_id": 239, "category_name": "Gaming computers" }
+                ],
+                "label": "RAM",
+                "indice": 9,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 128,
+                "children": []
+              },
+              {
+                "id": 138,
+                "name": "02 - Screen size",
+                "parent": "Bad product",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" },
+                  { "category_id": 239, "category_name": "Gaming computers" }
+                ],
+                "label": "Screen size",
+                "indice": 10,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 128,
+                "children": []
+              },
+              {
+                "id": 135,
+                "name": "02 - Storage Capacity",
+                "parent": "Bad product",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" },
+                  { "category_id": 239, "category_name": "Gaming computers" }
+                ],
+                "label": "Storage capacity",
+                "indice": 7,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 128,
+                "children": []
+              },
+              {
+                "id": 134,
+                "name": "02 - brand",
+                "parent": "Bad product",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" },
+                  { "category_id": 239, "category_name": "Gaming computers" }
+                ],
+                "label": "Brand",
+                "indice": 6,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 128,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 99,
+            "name": "Esthetical",
+            "parent": "Received",
+            "categories": [],
+            "label": "There are more scratches/marks than I expected",
+            "indice": 1,
+            "image": "broken-glass",
+            "is_leaf": false,
+            "question": "",
+            "subquestion": "",
+            "unique_choice": false,
+            "parent_id": 11,
+            "children": [
+              {
+                "id": 101,
+                "name": "01 - Back",
+                "parent": "Esthetical",
+                "categories": [],
+                "label": "The back is damaged",
+                "indice": 3,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 99,
+                "children": []
+              },
+              {
+                "id": 106,
+                "name": "01 - Other",
+                "parent": "Esthetical",
+                "categories": [],
+                "label": "Esthetical problem - other",
+                "indice": 5,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 99,
+                "children": []
+              },
+              {
+                "id": 102,
+                "name": "01 - Screen damaged",
+                "parent": "Esthetical",
+                "categories": [],
+                "label": "The screen is damaged",
+                "indice": 0,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 99,
+                "children": [
+                  {
+                    "id": 103,
+                    "name": "Broken",
+                    "parent": "01 - Screen damaged",
+                    "categories": [],
+                    "label": "The screen is broken",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 102,
+                    "children": []
+                  },
+                  {
+                    "id": 104,
+                    "name": "Damaged screen",
+                    "parent": "01 - Screen damaged",
+                    "categories": [],
+                    "label": "Damaged screen (scratches or bumps)",
+                    "indice": 1,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 102,
+                    "children": []
+                  },
+                  {
+                    "id": 105,
+                    "name": "Unstucked Screen",
+                    "parent": "01 - Screen damaged",
+                    "categories": [],
+                    "label": "Screen is loose",
+                    "indice": 2,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 102,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 109,
+                "name": "02 - Packaging",
+                "parent": "Esthetical",
+                "categories": [],
+                "label": "Packaging is damaged",
+                "indice": 6,
+                "image": "",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 99,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "name": "Technical",
+            "parent": "Received",
+            "categories": [],
+            "label": "Technical",
+            "indice": 0,
+            "image": "technical-support",
+            "is_leaf": false,
+            "question": "",
+            "subquestion": "",
+            "unique_choice": false,
+            "parent_id": 11,
+            "children": [
+              {
+                "id": 71,
+                "name": "01 - Audio",
+                "parent": "Technical",
+                "categories": [
+                  { "category_id": 5, "category_name": "Smartphones" },
+                  { "category_id": 12, "category_name": "Tablets" }
+                ],
+                "label": "Audio",
+                "indice": 14,
+                "image": "mute",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 77,
+                    "name": "Hearphones doesn't work",
+                    "parent": "01 - Audio",
+                    "categories": [],
+                    "label": "Audio doesn't work",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 71,
+                    "children": []
+                  },
+                  {
+                    "id": 73,
+                    "name": "I can't hear people",
+                    "parent": "01 - Audio",
+                    "categories": [],
+                    "label": "I can't hear people",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 71,
+                    "children": []
+                  },
+                  {
+                    "id": 76,
+                    "name": "Jack Plug doesn't work",
+                    "parent": "01 - Audio",
+                    "categories": [],
+                    "label": "Earphone jack doesn't work",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 71,
+                    "children": []
+                  },
+                  {
+                    "id": 75,
+                    "name": "Permanent sizzle",
+                    "parent": "01 - Audio",
+                    "categories": [],
+                    "label": "Permanent sizzle",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 71,
+                    "children": []
+                  },
+                  {
+                    "id": 74,
+                    "name": "Speakerphone doesn't work",
+                    "parent": "01 - Audio",
+                    "categories": [],
+                    "label": "Speakerphone doesn't work",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 71,
+                    "children": []
+                  },
+                  {
+                    "id": 161,
+                    "name": "Vibrator",
+                    "parent": "01 - Audio",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "The vibration doesn't work",
+                    "indice": 1,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 71,
+                    "children": []
+                  },
+                  {
+                    "id": 72,
+                    "name": "We can't listen to me",
+                    "parent": "01 - Audio",
+                    "categories": [],
+                    "label": "People can't hear me",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 71,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 59,
+                "name": "01 - Battery",
+                "parent": "Technical",
+                "categories": [
+                  { "category_id": 5, "category_name": "Smartphones" },
+                  { "category_id": 12, "category_name": "Tablets" }
+                ],
+                "label": "Battery",
+                "indice": 11,
+                "image": "batterie",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 163,
+                    "name": "Battery health",
+                    "parent": "01 - Battery",
+                    "categories": [],
+                    "label": "Battery health is not optimal (<80%)",
+                    "indice": 1,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 59,
+                    "children": []
+                  },
+                  {
+                    "id": 61,
+                    "name": "My battery discharges quickly",
+                    "parent": "01 - Battery",
+                    "categories": [],
+                    "label": "My battery discharges quickly",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 59,
+                    "children": []
+                  },
+                  {
+                    "id": 60,
+                    "name": "My battery does not charge",
+                    "parent": "01 - Battery",
+                    "categories": [],
+                    "label": "My battery does not charge",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 59,
+                    "children": []
+                  },
+                  {
+                    "id": 62,
+                    "name": "My battery is warm / inflated",
+                    "parent": "01 - Battery",
+                    "categories": [],
+                    "label": "My battery is warm / inflated",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 59,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 66,
+                "name": "01 - Button",
+                "parent": "Technical",
+                "categories": [
+                  { "category_id": 5, "category_name": "Smartphones" },
+                  { "category_id": 12, "category_name": "Tablets" }
+                ],
+                "label": "Button",
+                "indice": 13,
+                "image": "bigroundbutton",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 174,
+                    "name": "Back button",
+                    "parent": "01 - Button",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "The back button doesn’t work (Android)",
+                    "indice": 5,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 66,
+                    "children": []
+                  },
+                  {
+                    "id": 67,
+                    "name": "Home button",
+                    "parent": "01 - Button",
+                    "categories": [],
+                    "label": "Home button",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 66,
+                    "children": []
+                  },
+                  {
+                    "id": 165,
+                    "name": "Mute button",
+                    "parent": "01 - Button",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "The mute button doesn't work",
+                    "indice": 4,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 66,
+                    "children": []
+                  },
+                  {
+                    "id": 68,
+                    "name": "On / off button",
+                    "parent": "01 - Button",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "On / off button",
+                    "indice": 1,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 66,
+                    "children": []
+                  },
+                  {
+                    "id": 70,
+                    "name": "Other",
+                    "parent": "01 - Button",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "Buttons - other",
+                    "indice": 3,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 66,
+                    "children": []
+                  },
+                  {
+                    "id": 69,
+                    "name": "Volume buttons",
+                    "parent": "01 - Button",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "Volume buttons",
+                    "indice": 2,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 66,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 78,
+                "name": "01 - Camera",
+                "parent": "Technical",
+                "categories": [
+                  { "category_id": 5, "category_name": "Smartphones" },
+                  { "category_id": 12, "category_name": "Tablets" }
+                ],
+                "label": "Camera",
+                "indice": 15,
+                "image": "camera",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 79,
+                    "name": "Black screen when I use the camera",
+                    "parent": "01 - Camera",
+                    "categories": [],
+                    "label": "Black screen when I use the camera",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 78,
+                    "children": []
+                  },
+                  {
+                    "id": 164,
+                    "name": "Flash",
+                    "parent": "01 - Camera",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "The flash doesn't work",
+                    "indice": 5,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 78,
+                    "children": []
+                  },
+                  {
+                    "id": 80,
+                    "name": "I can not focus to take a picture",
+                    "parent": "01 - Camera",
+                    "categories": [],
+                    "label": "I cannot focus to take a picture",
+                    "indice": 1,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 78,
+                    "children": []
+                  },
+                  {
+                    "id": 82,
+                    "name": "I can't take off the sound of the shutter",
+                    "parent": "01 - Camera",
+                    "categories": [],
+                    "label": "I can't silence the camera shutter sound",
+                    "indice": 4,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 78,
+                    "children": []
+                  },
+                  {
+                    "id": 81,
+                    "name": "Zoom does not work",
+                    "parent": "01 - Camera",
+                    "categories": [],
+                    "label": "Zoom does not work",
+                    "indice": 3,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 78,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 86,
+                "name": "01 - Dead",
+                "parent": "Technical",
+                "categories": [
+                  { "category_id": 5, "category_name": "Smartphones" },
+                  { "category_id": 12, "category_name": "Tablets" }
+                ],
+                "label": "The unit does not turn on",
+                "indice": 17,
+                "image": "wave",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": []
+              },
+              {
+                "id": 92,
+                "name": "01 - Network / Sim Card Issues",
+                "parent": "Technical",
+                "categories": [
+                  { "category_id": 5, "category_name": "Smartphones" },
+                  { "category_id": 12, "category_name": "Tablets" }
+                ],
+                "label": "Network / Sim Card Issues",
+                "indice": 19,
+                "image": "radio",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 166,
+                    "name": "ESIM",
+                    "parent": "01 - Network / Sim Card Issues",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "The eSIM doesn't work",
+                    "indice": 1,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 92,
+                    "children": []
+                  },
+                  {
+                    "id": 97,
+                    "name": "My operator told me my phone is blacklisted",
+                    "parent": "01 - Network / Sim Card Issues",
+                    "categories": [],
+                    "label": "My phone is blacklisted?!",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 92,
+                    "children": []
+                  },
+                  {
+                    "id": 93,
+                    "name": "My phone does not catch the network",
+                    "parent": "01 - Network / Sim Card Issues",
+                    "categories": [],
+                    "label": "My phone doesn't connect to my network",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 92,
+                    "children": []
+                  },
+                  {
+                    "id": 95,
+                    "name": "My phone does not recognize my SIM card",
+                    "parent": "01 - Network / Sim Card Issues",
+                    "categories": [],
+                    "label": "My phone does not recognize my SIM card",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 92,
+                    "children": []
+                  },
+                  {
+                    "id": 94,
+                    "name": "My phone is locked",
+                    "parent": "01 - Network / Sim Card Issues",
+                    "categories": [],
+                    "label": "My phone is locked to another network",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 92,
+                    "children": []
+                  },
+                  {
+                    "id": 173,
+                    "name": "Simlock",
+                    "parent": "01 - Network / Sim Card Issues",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "My phone is not unlocked for all carriers",
+                    "indice": 2,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 92,
+                    "children": []
+                  },
+                  {
+                    "id": 96,
+                    "name": "The SIM card case is broken / difficult to open",
+                    "parent": "01 - Network / Sim Card Issues",
+                    "categories": [],
+                    "label": "The SIM card case is broken / difficult to open",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 92,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 98,
+                "name": "01 - Other",
+                "parent": "Technical",
+                "categories": [
+                  { "category_id": 5, "category_name": "Smartphones" },
+                  { "category_id": 12, "category_name": "Tablets" }
+                ],
+                "label": "Technical - other",
+                "indice": 20,
+                "image": "more",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": []
+              },
+              {
+                "id": 83,
+                "name": "01 - Plug",
+                "parent": "Technical",
+                "categories": [
+                  { "category_id": 5, "category_name": "Smartphones" },
+                  { "category_id": 12, "category_name": "Tablets" }
+                ],
+                "label": "Plug",
+                "indice": 16,
+                "image": "jackplug",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 84,
+                    "name": "Charge connector does not work",
+                    "parent": "01 - Plug",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "Charge connector does not work",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 83,
+                    "children": []
+                  },
+                  {
+                    "id": 85,
+                    "name": "Jack Plug does not work",
+                    "parent": "01 - Plug",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "Jack Plug does not work",
+                    "indice": 1,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 83,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 63,
+                "name": "01 - Screen",
+                "parent": "Technical",
+                "categories": [
+                  { "category_id": 5, "category_name": "Smartphones" },
+                  { "category_id": 12, "category_name": "Tablets" }
+                ],
+                "label": "Screen",
+                "indice": 12,
+                "image": "touchtablet",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 158,
+                    "name": "3D touch",
+                    "parent": "01 - Screen",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "3D Touch doesn't work",
+                    "indice": 4,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 63,
+                    "children": []
+                  },
+                  {
+                    "id": 65,
+                    "name": "Display Issue",
+                    "parent": "01 - Screen",
+                    "categories": [],
+                    "label": "Display Issue",
+                    "indice": 3,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 63,
+                    "children": []
+                  },
+                  {
+                    "id": 160,
+                    "name": "Multi-touch",
+                    "parent": "01 - Screen",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "Multi-touch doesn't work",
+                    "indice": 6,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 63,
+                    "children": []
+                  },
+                  {
+                    "id": 159,
+                    "name": "Screen brightness",
+                    "parent": "01 - Screen",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "I have a problem with the screen brightness",
+                    "indice": 5,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 63,
+                    "children": []
+                  },
+                  {
+                    "id": 162,
+                    "name": "Taptic engine",
+                    "parent": "01 - Screen",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "I don't feel touch activated vibrations (Taptic engine)",
+                    "indice": 2,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 63,
+                    "children": []
+                  },
+                  {
+                    "id": 64,
+                    "name": "Touch",
+                    "parent": "01 - Screen",
+                    "categories": [],
+                    "label": "The Touch is not working",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 63,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 87,
+                "name": "01 - Settings",
+                "parent": "Technical",
+                "categories": [
+                  { "category_id": 5, "category_name": "Smartphones" },
+                  { "category_id": 12, "category_name": "Tablets" }
+                ],
+                "label": "Settings",
+                "indice": 18,
+                "image": "wave",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 88,
+                    "name": "An iCloud / Google account is already set up",
+                    "parent": "01 - Settings",
+                    "categories": [],
+                    "label": "An iCloud / Google account is already set up",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 87,
+                    "children": []
+                  },
+                  {
+                    "id": 89,
+                    "name": "I can't choose the language",
+                    "parent": "01 - Settings",
+                    "categories": [],
+                    "label": "I can't choose the language",
+                    "indice": 1,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 87,
+                    "children": []
+                  },
+                  {
+                    "id": 90,
+                    "name": "I can't update my product",
+                    "parent": "01 - Settings",
+                    "categories": [],
+                    "label": "I can't update my product",
+                    "indice": 2,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 87,
+                    "children": []
+                  },
+                  {
+                    "id": 91,
+                    "name": "Other",
+                    "parent": "01 - Settings",
+                    "categories": [
+                      { "category_id": 5, "category_name": "Smartphones" },
+                      { "category_id": 12, "category_name": "Tablets" }
+                    ],
+                    "label": "Settings - other",
+                    "indice": 3,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 87,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 52,
+                "name": "02 - Battery",
+                "parent": "Technical",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  {
+                    "category_id": 173,
+                    "category_name": "Gaming computer + Monitor packages"
+                  },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" }
+                ],
+                "label": "Battery",
+                "indice": 9,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 53,
+                    "name": "Autonomy",
+                    "parent": "02 - Battery",
+                    "categories": [
+                      {
+                        "category_id": 15,
+                        "category_name": "Desktop + Monitor packages"
+                      },
+                      { "category_id": 17, "category_name": "Office laptops" },
+                      {
+                        "category_id": 19,
+                        "category_name": "Notebooks & Ultrabooks"
+                      },
+                      { "category_id": 20, "category_name": "Netbooks" },
+                      { "category_id": 166, "category_name": "Gaming laptops" },
+                      { "category_id": 167, "category_name": "MacBook" },
+                      { "category_id": 168, "category_name": "iMac" },
+                      {
+                        "category_id": 169,
+                        "category_name": "All-in-one computers"
+                      },
+                      { "category_id": 170, "category_name": "Mac mini" },
+                      { "category_id": 172, "category_name": "Desktops" },
+                      {
+                        "category_id": 173,
+                        "category_name": "Gaming computer + Monitor packages"
+                      },
+                      {
+                        "category_id": 174,
+                        "category_name": "2 in 1 hybrid PCs"
+                      }
+                    ],
+                    "label": "My battery doesn't last very long",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 52,
+                    "children": []
+                  },
+                  {
+                    "id": 55,
+                    "name": "Cable",
+                    "parent": "02 - Battery",
+                    "categories": [
+                      {
+                        "category_id": 15,
+                        "category_name": "Desktop + Monitor packages"
+                      },
+                      { "category_id": 17, "category_name": "Office laptops" },
+                      {
+                        "category_id": 19,
+                        "category_name": "Notebooks & Ultrabooks"
+                      },
+                      { "category_id": 20, "category_name": "Netbooks" },
+                      { "category_id": 166, "category_name": "Gaming laptops" },
+                      { "category_id": 167, "category_name": "MacBook" },
+                      { "category_id": 168, "category_name": "iMac" },
+                      {
+                        "category_id": 169,
+                        "category_name": "All-in-one computers"
+                      },
+                      { "category_id": 170, "category_name": "Mac mini" },
+                      { "category_id": 172, "category_name": "Desktops" },
+                      {
+                        "category_id": 173,
+                        "category_name": "Gaming computer + Monitor packages"
+                      },
+                      {
+                        "category_id": 174,
+                        "category_name": "2 in 1 hybrid PCs"
+                      }
+                    ],
+                    "label": "Cable",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 52,
+                    "children": []
+                  },
+                  {
+                    "id": 54,
+                    "name": "Charge",
+                    "parent": "02 - Battery",
+                    "categories": [
+                      {
+                        "category_id": 15,
+                        "category_name": "Desktop + Monitor packages"
+                      },
+                      { "category_id": 17, "category_name": "Office laptops" },
+                      {
+                        "category_id": 19,
+                        "category_name": "Notebooks & Ultrabooks"
+                      },
+                      { "category_id": 20, "category_name": "Netbooks" },
+                      { "category_id": 166, "category_name": "Gaming laptops" },
+                      { "category_id": 167, "category_name": "MacBook" },
+                      { "category_id": 168, "category_name": "iMac" },
+                      {
+                        "category_id": 169,
+                        "category_name": "All-in-one computers"
+                      },
+                      { "category_id": 170, "category_name": "Mac mini" },
+                      { "category_id": 172, "category_name": "Desktops" },
+                      {
+                        "category_id": 173,
+                        "category_name": "Gaming computer + Monitor packages"
+                      },
+                      {
+                        "category_id": 174,
+                        "category_name": "2 in 1 hybrid PCs"
+                      }
+                    ],
+                    "label": "Not charging",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 52,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 48,
+                "name": "02 - Connectors",
+                "parent": "Technical",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  {
+                    "category_id": 173,
+                    "category_name": "Gaming computer + Monitor packages"
+                  },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" }
+                ],
+                "label": "Connectors",
+                "indice": 8,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 51,
+                    "name": "Charge",
+                    "parent": "02 - Connectors",
+                    "categories": [],
+                    "label": "Charge",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 48,
+                    "children": []
+                  },
+                  {
+                    "id": 50,
+                    "name": "HDMI VGA",
+                    "parent": "02 - Connectors",
+                    "categories": [],
+                    "label": "HDMI VGA",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 48,
+                    "children": []
+                  },
+                  {
+                    "id": 49,
+                    "name": "USB",
+                    "parent": "02 - Connectors",
+                    "categories": [],
+                    "label": "USB",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 48,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 45,
+                "name": "02 - Impossible to unlock",
+                "parent": "Technical",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  {
+                    "category_id": 173,
+                    "category_name": "Gaming computer + Monitor packages"
+                  },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" }
+                ],
+                "label": "Impossible to unlock",
+                "indice": 7,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 47,
+                    "name": "Blocked/blacklisted",
+                    "parent": "02 - Impossible to unlock",
+                    "categories": [],
+                    "label": "Blocked/blacklisted",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 45,
+                    "children": []
+                  },
+                  {
+                    "id": 46,
+                    "name": "Password",
+                    "parent": "02 - Impossible to unlock",
+                    "categories": [
+                      {
+                        "category_id": 15,
+                        "category_name": "Desktop + Monitor packages"
+                      },
+                      { "category_id": 17, "category_name": "Office laptops" },
+                      {
+                        "category_id": 19,
+                        "category_name": "Notebooks & Ultrabooks"
+                      },
+                      { "category_id": 20, "category_name": "Netbooks" },
+                      { "category_id": 166, "category_name": "Gaming laptops" },
+                      { "category_id": 167, "category_name": "MacBook" },
+                      { "category_id": 168, "category_name": "iMac" },
+                      {
+                        "category_id": 169,
+                        "category_name": "All-in-one computers"
+                      },
+                      { "category_id": 170, "category_name": "Mac mini" },
+                      { "category_id": 172, "category_name": "Desktops" },
+                      {
+                        "category_id": 173,
+                        "category_name": "Gaming computer + Monitor packages"
+                      },
+                      {
+                        "category_id": 174,
+                        "category_name": "2 in 1 hybrid PCs"
+                      }
+                    ],
+                    "label": "Password",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 45,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 22,
+                "name": "02 - Integrated accessories",
+                "parent": "Technical",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  {
+                    "category_id": 173,
+                    "category_name": "Gaming computer + Monitor packages"
+                  },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" }
+                ],
+                "label": "Integrated accessories",
+                "indice": 2,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 29,
+                    "name": "CD DVD",
+                    "parent": "02 - Integrated accessories",
+                    "categories": [],
+                    "label": "CD DVD",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 22,
+                    "children": []
+                  },
+                  {
+                    "id": 24,
+                    "name": "Keyboard",
+                    "parent": "02 - Integrated accessories",
+                    "categories": [],
+                    "label": "Keyboard",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": false,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 22,
+                    "children": [
+                      {
+                        "id": 27,
+                        "name": "Backlighting",
+                        "parent": "Keyboard",
+                        "categories": [],
+                        "label": "Backlighting",
+                        "indice": 0,
+                        "image": "",
+                        "is_leaf": true,
+                        "question": "",
+                        "subquestion": "",
+                        "unique_choice": false,
+                        "parent_id": 24,
+                        "children": []
+                      },
+                      {
+                        "id": 26,
+                        "name": "Language",
+                        "parent": "Keyboard",
+                        "categories": [],
+                        "label": "Language",
+                        "indice": 0,
+                        "image": "",
+                        "is_leaf": true,
+                        "question": "",
+                        "subquestion": "",
+                        "unique_choice": false,
+                        "parent_id": 24,
+                        "children": []
+                      },
+                      {
+                        "id": 25,
+                        "name": "key",
+                        "parent": "Keyboard",
+                        "categories": [],
+                        "label": "key",
+                        "indice": 0,
+                        "image": "",
+                        "is_leaf": true,
+                        "question": "",
+                        "subquestion": "",
+                        "unique_choice": false,
+                        "parent_id": 24,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 23,
+                    "name": "Mouse, style touchpad",
+                    "parent": "02 - Integrated accessories",
+                    "categories": [],
+                    "label": "Mouse",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 22,
+                    "children": []
+                  },
+                  {
+                    "id": 28,
+                    "name": "webcam",
+                    "parent": "02 - Integrated accessories",
+                    "categories": [],
+                    "label": "Webcam",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 22,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 34,
+                "name": "02 - No start",
+                "parent": "Technical",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  {
+                    "category_id": 173,
+                    "category_name": "Gaming computer + Monitor packages"
+                  },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" }
+                ],
+                "label": "My laptop does not turn on",
+                "indice": 4,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 36,
+                    "name": "Black Screen",
+                    "parent": "02 - No start",
+                    "categories": [],
+                    "label": "Black Screen",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 34,
+                    "children": []
+                  },
+                  {
+                    "id": 37,
+                    "name": "Blue screen",
+                    "parent": "02 - No start",
+                    "categories": [],
+                    "label": "Blue screen",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 34,
+                    "children": []
+                  },
+                  {
+                    "id": 38,
+                    "name": "Green screen",
+                    "parent": "02 - No start",
+                    "categories": [],
+                    "label": "Green screen",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 34,
+                    "children": []
+                  },
+                  {
+                    "id": 35,
+                    "name": "No starting",
+                    "parent": "02 - No start",
+                    "categories": [],
+                    "label": "Not starting",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 34,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "name": "02 - Screen",
+                "parent": "Technical",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" },
+                  { "category_id": 239, "category_name": "Gaming computers" }
+                ],
+                "label": "Screen",
+                "indice": 1,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 20,
+                    "name": "Bloqued screen",
+                    "parent": "02 - Screen",
+                    "categories": [
+                      {
+                        "category_id": 174,
+                        "category_name": "2 in 1 hybrid PCs"
+                      }
+                    ],
+                    "label": "Blocked screen",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 17,
+                    "children": []
+                  },
+                  {
+                    "id": 19,
+                    "name": "Mark",
+                    "parent": "02 - Screen",
+                    "categories": [
+                      {
+                        "category_id": 174,
+                        "category_name": "2 in 1 hybrid PCs"
+                      }
+                    ],
+                    "label": "Mark",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 17,
+                    "children": []
+                  },
+                  {
+                    "id": 21,
+                    "name": "Other",
+                    "parent": "02 - Screen",
+                    "categories": [
+                      {
+                        "category_id": 174,
+                        "category_name": "2 in 1 hybrid PCs"
+                      }
+                    ],
+                    "label": "Screen - other",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 17,
+                    "children": []
+                  },
+                  {
+                    "id": 18,
+                    "name": "Pixel",
+                    "parent": "02 - Screen",
+                    "categories": [
+                      {
+                        "category_id": 174,
+                        "category_name": "2 in 1 hybrid PCs"
+                      }
+                    ],
+                    "label": "Pixel",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 17,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 30,
+                "name": "02 - Software",
+                "parent": "Technical",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  {
+                    "category_id": 173,
+                    "category_name": "Gaming computer + Monitor packages"
+                  },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" }
+                ],
+                "label": "Software",
+                "indice": 3,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 31,
+                    "name": "OS",
+                    "parent": "02 - Software",
+                    "categories": [
+                      {
+                        "category_id": 15,
+                        "category_name": "Desktop + Monitor packages"
+                      },
+                      { "category_id": 17, "category_name": "Office laptops" },
+                      {
+                        "category_id": 19,
+                        "category_name": "Notebooks & Ultrabooks"
+                      },
+                      { "category_id": 20, "category_name": "Netbooks" },
+                      { "category_id": 166, "category_name": "Gaming laptops" },
+                      { "category_id": 167, "category_name": "MacBook" },
+                      { "category_id": 168, "category_name": "iMac" },
+                      {
+                        "category_id": 169,
+                        "category_name": "All-in-one computers"
+                      },
+                      { "category_id": 170, "category_name": "Mac mini" },
+                      { "category_id": 172, "category_name": "Desktops" },
+                      {
+                        "category_id": 173,
+                        "category_name": "Gaming computer + Monitor packages"
+                      },
+                      {
+                        "category_id": 174,
+                        "category_name": "2 in 1 hybrid PCs"
+                      }
+                    ],
+                    "label": "OS",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 30,
+                    "children": []
+                  },
+                  {
+                    "id": 33,
+                    "name": "Other",
+                    "parent": "02 - Software",
+                    "categories": [
+                      {
+                        "category_id": 15,
+                        "category_name": "Desktop + Monitor packages"
+                      },
+                      { "category_id": 17, "category_name": "Office laptops" },
+                      {
+                        "category_id": 19,
+                        "category_name": "Notebooks & Ultrabooks"
+                      },
+                      { "category_id": 20, "category_name": "Netbooks" },
+                      { "category_id": 166, "category_name": "Gaming laptops" },
+                      { "category_id": 167, "category_name": "MacBook" },
+                      { "category_id": 168, "category_name": "iMac" },
+                      {
+                        "category_id": 169,
+                        "category_name": "All-in-one computers"
+                      },
+                      { "category_id": 170, "category_name": "Mac mini" },
+                      { "category_id": 172, "category_name": "Desktops" },
+                      {
+                        "category_id": 173,
+                        "category_name": "Gaming computer + Monitor packages"
+                      },
+                      {
+                        "category_id": 174,
+                        "category_name": "2 in 1 hybrid PCs"
+                      }
+                    ],
+                    "label": "Software - other",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 30,
+                    "children": []
+                  },
+                  {
+                    "id": 32,
+                    "name": "Pack Office",
+                    "parent": "02 - Software",
+                    "categories": [
+                      {
+                        "category_id": 15,
+                        "category_name": "Desktop + Monitor packages"
+                      },
+                      { "category_id": 17, "category_name": "Office laptops" },
+                      {
+                        "category_id": 19,
+                        "category_name": "Notebooks & Ultrabooks"
+                      },
+                      { "category_id": 20, "category_name": "Netbooks" },
+                      { "category_id": 166, "category_name": "Gaming laptops" },
+                      { "category_id": 167, "category_name": "MacBook" },
+                      { "category_id": 168, "category_name": "iMac" },
+                      {
+                        "category_id": 169,
+                        "category_name": "All-in-one computers"
+                      },
+                      { "category_id": 170, "category_name": "Mac mini" },
+                      { "category_id": 172, "category_name": "Desktops" },
+                      {
+                        "category_id": 173,
+                        "category_name": "Gaming computer + Monitor packages"
+                      },
+                      {
+                        "category_id": 174,
+                        "category_name": "2 in 1 hybrid PCs"
+                      }
+                    ],
+                    "label": "Microsoft Office",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 30,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "name": "02 - The sound",
+                "parent": "Technical",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" }
+                ],
+                "label": "The sound",
+                "indice": 0,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 15,
+                    "name": "Jack",
+                    "parent": "02 - The sound",
+                    "categories": [
+                      {
+                        "category_id": 15,
+                        "category_name": "Desktop + Monitor packages"
+                      }
+                    ],
+                    "label": "Headphone jack",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 13,
+                    "children": []
+                  },
+                  {
+                    "id": 14,
+                    "name": "Micro",
+                    "parent": "02 - The sound",
+                    "categories": [
+                      {
+                        "category_id": 15,
+                        "category_name": "Desktop + Monitor packages"
+                      }
+                    ],
+                    "label": "Microphone",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 13,
+                    "children": []
+                  },
+                  {
+                    "id": 16,
+                    "name": "Speaker",
+                    "parent": "02 - The sound",
+                    "categories": [
+                      {
+                        "category_id": 15,
+                        "category_name": "Desktop + Monitor packages"
+                      }
+                    ],
+                    "label": "Speaker",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 13,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 39,
+                "name": "02 - Too hot or too noisy",
+                "parent": "Technical",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  {
+                    "category_id": 173,
+                    "category_name": "Gaming computer + Monitor packages"
+                  },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" }
+                ],
+                "label": "Too hot or too noisy",
+                "indice": 5,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 40,
+                    "name": "Noisy",
+                    "parent": "02 - Too hot or too noisy",
+                    "categories": [],
+                    "label": "Too noisy",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 39,
+                    "children": []
+                  },
+                  {
+                    "id": 41,
+                    "name": "warm",
+                    "parent": "02 - Too hot or too noisy",
+                    "categories": [],
+                    "label": "Too warm",
+                    "indice": 1,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 39,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 42,
+                "name": "02 - Too slow",
+                "parent": "Technical",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  {
+                    "category_id": 173,
+                    "category_name": "Gaming computer + Monitor packages"
+                  },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" }
+                ],
+                "label": "Too slow",
+                "indice": 6,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 44,
+                    "name": "Since recently",
+                    "parent": "02 - Too slow",
+                    "categories": [],
+                    "label": "Since recently",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 42,
+                    "children": []
+                  },
+                  {
+                    "id": 43,
+                    "name": "Since the begining",
+                    "parent": "02 - Too slow",
+                    "categories": [],
+                    "label": "Since the beginning",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 42,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 56,
+                "name": "02 - Wifi/Bluetooth",
+                "parent": "Technical",
+                "categories": [
+                  {
+                    "category_id": 15,
+                    "category_name": "Desktop + Monitor packages"
+                  },
+                  { "category_id": 17, "category_name": "Office laptops" },
+                  {
+                    "category_id": 19,
+                    "category_name": "Notebooks & Ultrabooks"
+                  },
+                  { "category_id": 20, "category_name": "Netbooks" },
+                  { "category_id": 166, "category_name": "Gaming laptops" },
+                  { "category_id": 167, "category_name": "MacBook" },
+                  { "category_id": 168, "category_name": "iMac" },
+                  {
+                    "category_id": 169,
+                    "category_name": "All-in-one computers"
+                  },
+                  { "category_id": 170, "category_name": "Mac mini" },
+                  { "category_id": 172, "category_name": "Desktops" },
+                  {
+                    "category_id": 173,
+                    "category_name": "Gaming computer + Monitor packages"
+                  },
+                  { "category_id": 174, "category_name": "2 in 1 hybrid PCs" }
+                ],
+                "label": "Wifi/Bluetooth",
+                "indice": 10,
+                "image": "",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 58,
+                    "name": "Bluetooth",
+                    "parent": "02 - Wifi/Bluetooth",
+                    "categories": [],
+                    "label": "Bluetooth",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 56,
+                    "children": []
+                  },
+                  {
+                    "id": 57,
+                    "name": "Wifi",
+                    "parent": "02 - Wifi/Bluetooth",
+                    "categories": [],
+                    "label": "Wifi",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 56,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 167,
+                "name": "Sensors",
+                "parent": "Technical",
+                "categories": [
+                  { "category_id": 5, "category_name": "Smartphones" },
+                  { "category_id": 12, "category_name": "Tablets" }
+                ],
+                "label": "Sensors",
+                "indice": 21,
+                "image": "sensor",
+                "is_leaf": false,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": [
+                  {
+                    "id": 171,
+                    "name": "Facial recognition",
+                    "parent": "Sensors",
+                    "categories": [],
+                    "label": "The facial recognition/FaceID doesn't work",
+                    "indice": 3,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 167,
+                    "children": []
+                  },
+                  {
+                    "id": 170,
+                    "name": "Fingerprint sensor",
+                    "parent": "Sensors",
+                    "categories": [],
+                    "label": "The fingerprint sensor/Touch ID doesn't work",
+                    "indice": 2,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 167,
+                    "children": []
+                  },
+                  {
+                    "id": 172,
+                    "name": "GPS",
+                    "parent": "Sensors",
+                    "categories": [],
+                    "label": "The GPS location doesn't work",
+                    "indice": 4,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 167,
+                    "children": []
+                  },
+                  {
+                    "id": 169,
+                    "name": "Motion sensor",
+                    "parent": "Sensors",
+                    "categories": [],
+                    "label": "The motion sensor doesn't work",
+                    "indice": 1,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 167,
+                    "children": []
+                  },
+                  {
+                    "id": 168,
+                    "name": "Proximity sensor",
+                    "parent": "Sensors",
+                    "categories": [],
+                    "label": "The proximity sensor doesn't work",
+                    "indice": 0,
+                    "image": "",
+                    "is_leaf": true,
+                    "question": "",
+                    "subquestion": "",
+                    "unique_choice": false,
+                    "parent_id": 167,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 196,
+                "name": "sim_tray_missing",
+                "parent": "Technical",
+                "categories": [
+                  { "category_id": 5, "category_name": "Smartphones" },
+                  { "category_id": 12, "category_name": "Tablets" }
+                ],
+                "label": "The SIM card tray is missing",
+                "indice": 23,
+                "image": "sim",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": []
+              },
+              {
+                "id": 202,
+                "name": "uncertified_battery",
+                "parent": "Technical",
+                "categories": [
+                  { "category_id": 5, "category_name": "Smartphones" }
+                ],
+                "label": "Apple warnings battery/screen/camera",
+                "indice": 1,
+                "image": "notification-battery",
+                "is_leaf": true,
+                "question": "",
+                "subquestion": "",
+                "unique_choice": false,
+                "parent_id": 12,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 197,
+            "name": "product_information_request",
+            "parent": "Received",
+            "categories": [],
+            "label": "I have a question about my product",
+            "indice": 6,
+            "image": "question",
+            "is_leaf": true,
+            "question": "",
+            "subquestion": "",
+            "unique_choice": false,
+            "parent_id": 11,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 155,
+        "name": "Theft",
+        "parent": "Root",
+        "categories": [],
+        "label": "Déclarer le vol de mon appareil",
+        "indice": 6,
+        "image": "theft",
+        "is_leaf": true,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": true,
+        "parent_id": 1,
+        "children": []
+      },
+      {
+        "id": 199,
+        "name": "insurance_policy_withdrawal",
+        "parent": "Root",
+        "categories": [],
+        "label": "I wish to cancel my protection plan",
+        "indice": 8,
+        "image": "shield-stop",
+        "is_leaf": true,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": true,
+        "parent_id": 1,
+        "children": []
+      },
+      {
+        "id": 200,
+        "name": "insurance_portal_redirect",
+        "parent": "Root",
+        "categories": [],
+        "label": "Report a claim to the insurer",
+        "indice": 8,
+        "image": "quality",
+        "is_leaf": true,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": true,
+        "parent_id": 1,
+        "children": []
+      },
+      {
+        "id": 201,
+        "name": "withdraw_orderline",
+        "parent": "Root",
+        "categories": [],
+        "label": "I changed my mind about the item",
+        "indice": 8,
+        "image": "cancel",
+        "is_leaf": true,
+        "question": "",
+        "subquestion": "",
+        "unique_choice": false,
+        "parent_id": 1,
+        "children": []
+      }
+    ]
+  }
+]
