@@ -1,0 +1,23 @@
+{
+  "name": "sav_tile_tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build-tree-data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aberlioz/sav_tile_tree_view.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aberlioz/sav_tile_tree_view/issues"
+  },
+  "homepage": "https://github.com/aberlioz/sav_tile_tree_view#readme",
+  "dependencies": {
+    "axios": "1.1.3",
+    "lodash": "^4.17.21"
+  }
+}
