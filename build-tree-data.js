@@ -36,7 +36,7 @@ const buildTree = async () => {
     const res = await axios.get(root_url);
     const formattedData = await formatTile(res.data);
     treeData.push(formattedData);
-    fs.writeFileSync(filename, JSON.stringify(treeData));
+    fs.writeFileSync(filename, JSON.stringify(treeData, null, 2));
   } catch (err) {
     // Handle Error Here
     console.error(err);
